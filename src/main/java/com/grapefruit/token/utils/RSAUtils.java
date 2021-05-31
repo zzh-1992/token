@@ -26,6 +26,10 @@ import java.util.Map;
  * @ModifyTime 2020/9/12 19:23:16
  */
 public class RSAUtils {
+
+    public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
+        generateKeyPair();
+    }
     
     //网友博客地址:https://www.cnblogs.com/longyao/p/11346984.html
 
